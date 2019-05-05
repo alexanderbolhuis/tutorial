@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Owl Picture</title>
+        <link rel="stylesheet" href="{% static "css/my_style.css" %}">
+    </head>
+    <body>
+        <h1>Welcome</h1>
+
+        <p>{{ insert_me }}:</p>
+        <img src="{% static "images/owl.jpg" alt="Uh oh!" %}"/>
+
+    </body>
+</html>
